@@ -15,11 +15,14 @@
 	<div class="formulario">
 		<form method="POST">
 			Login<br>
-			<input type="text" name="login"><br><br>
+			<input type="text" name="login" autofocus id="log"><br><br>
 			Senha<br>
-			<input type="password" name="senha"><br><br><br>
-			<input type="submit" name="confirmar" value="Confirmar">
+			<input type="password" name="senha" id="log"><br><br><br>
+			<input type="submit" name="confirmar" value="Confirmar" id="confirmar">
 		</form>
 	</div>
+	<footer>
+		<p>Copyright@ - Desenvolvido por <i>Y2SM WebDesign</i></p>
+	</footer>
 </body>
 </html>
