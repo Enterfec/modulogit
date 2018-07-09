@@ -1,0 +1,41 @@
+body {
+	font-family: arial;
+	display: flex-column;
+}
+.texto {
+	width: 1024px;
+	font-family: arial;
+	display: flex-column;
+	justify-content: center;
+	margin: auto;
+	flex: 0;
+
+}
+.texto h1{
+	text-align: center;
+	flex: 0;
+}
+.texto h3{
+	text-align: center;
+	margin-top: 0px;
+	flex: 0;
+}
+hr {
+	width: 100%;
+	color: #CCC;
+	display: flex;
+	justify-content: center;
+	flex: 0;
+}
+.formulario {
+	width: 1024px;
+	display: flex;
+	flex: 1;
+	margin:auto;
+	justify-content: center;
+	margin-top: 50px;
+}
+form input {
+	border-radius: 10px;
+	font-size: 18px;
+}
