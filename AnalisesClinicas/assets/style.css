@@ -1,24 +1,33 @@
 body {
 	font-family: arial;
 	display: flex-column;
+	margin:0;
+	padding: 0;
 }
 .texto {
-	width: 1024px;
+	width: 100%;
+	margin-top: 0px;
 	font-family: arial;
 	display: flex-column;
 	justify-content: center;
 	margin: auto;
 	flex: 0;
+	background-color: blue;
+	padding-top: 0px;
 
 }
 .texto h1{
 	text-align: center;
 	flex: 0;
+	color: white;
+	margin-top: 0px;
+	padding-top: 10px;
 }
 .texto h3{
 	text-align: center;
 	margin-top: 0px;
 	flex: 0;
+	color: white;
 }
 hr {
 	width: 100%;
